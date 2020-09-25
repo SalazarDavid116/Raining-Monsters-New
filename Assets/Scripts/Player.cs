@@ -33,6 +33,18 @@ public class Player : MonoBehaviour
             lostPanel.SetActive(true);
         }
     } // function - TakeDamage
+
+    public void scaleSmaller(float num)
+    {
+        transform.localScale = new Vector3(transform.localScale.x, transform.localScale.y - num, transform.localScale.z);
+    }
+    
+    public void scaleBigger(float num)
+    {
+        transform.localScale = new Vector3(transform.localScale.x, transform.localScale.y + num, transform.localScale.z);
+    }
+
+
     
     //--------------------------------------------------------------------------
     // Main functions

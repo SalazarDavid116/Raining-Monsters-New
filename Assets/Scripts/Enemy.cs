@@ -27,6 +27,7 @@ public class Enemy : MonoBehaviour
             //print("CAUTION:  MONSTER HIT THE PLAYER!!! Your health = " + playerScript.health);
             Instantiate(explosion, transform.position, quaternion.identity);
             Destroy(gameObject);
+            playerScript.scaleSmaller(0.02f);
         } else if (hitObject.tag == "Ground") {
             //print("Monster hit the ground");
             CameraShake.instance.StartShake(0.15f, 0.03f);
@@ -35,8 +36,6 @@ public class Enemy : MonoBehaviour
         } 
         
     } // function - onTriggerEnter()
-    
-
     // ---------------------------------------------------------------
     // Main functions
     
