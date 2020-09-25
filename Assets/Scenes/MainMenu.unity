@@ -414,8 +414,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.5}
-  m_AnchoredPosition: {x: -79.15, y: -54.3}
-  m_SizeDelta: {x: 158.3002, y: 151.00009}
+  m_AnchoredPosition: {x: -92.6, y: -54.3}
+  m_SizeDelta: {x: 185.20221, y: 151.00009}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &811403636
 MonoBehaviour:
@@ -450,7 +450,7 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: "Instruction:\r\nkeyboard\r\n\"A\" / \"D\" or \"\u21FD\" / \"\u21FE\"\r\nRun
-    left and right\r\n\r\n\u547D\u4EE4:\r\n\u30AD\u30FC\u30DC\u30FC\u30C9\r\n\u300CA\u300D/\u300CD\u300D\u304B\u300C\u21FD\u300D/\u300C\u21FE\u300D\r\n\u5DE6\u53F3\u306B\u8D70\u307E\u3059"
+    left and right\r\n\r\n\u64CD\u4F5C\u8AAC\u660E:\r\n\u30AD\u30FC\u30DC\u30FC\u30C9\r\n\u300CA\u300D/\u300CD\u300D\u304B\u300C\u2190\u21FD\u300D/\u300C\u21FE\u2192\u300D\r\n\u5DE6\u53F3\u306B\u8D70\u308A\u307E"
 --- !u!222 &811403637
 CanvasRenderer:
   m_ObjectHideFlags: 0
