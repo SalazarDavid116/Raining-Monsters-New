@@ -17,3 +17,17 @@ Change log ログを変更
 Version 1.1 - Fixed the possibly memory leak.  Removed the explosion effect objects after monster collide with the player or ground.
 
 バージョン 1.1 - メモリリークの可能性を修正しました。モンスターがプレイヤーまたは地面に衝突した後の爆発エフェクトオブジェクトを削除しました。
+
+----------------------------------------------
+
+Version 1.2 - Major Update:
+- Added physics where gravity works in-game.
+- Every monster has its own gravity.
+- Improved player hitbox
+- Added description to the first screen
+
+バージョン1.2-メジャーアップデート：
+-重力がゲーム内で機能する物理を追加しました。
+-すべてのモンスターは独自の重力を持っています。
+-プレーヤーのヒットボックスの改善
+-最初の画面に説明を追加
