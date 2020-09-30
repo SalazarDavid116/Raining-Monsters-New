@@ -31,3 +31,16 @@ Version 1.2 - Major Update:
 -すべてのモンスターは独自の重力を持っています。
 -プレーヤーのヒットボックスの改善
 -最初の画面に説明を追加
+
+----------------------------------------------
+
+Version 1.3 - Minor Update:
+- Fixed the text on the main menu
+- Tweaked the gravity and weight of monsters
+- Added  small "shaking" effect to the ground when monster hit the ground
+
+バージョン1.3 - マイナーアップデート。
+- メインメニューのテキストを修正
+- モンスターの重力と重さを微調整
+- モンスターが地面にぶつかった時、地面に小さな「揺れる」効果を追加しました。
+
