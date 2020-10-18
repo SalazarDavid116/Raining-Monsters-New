@@ -71,7 +71,7 @@ GameObject:
   - component: {fileID: 6175135158802394679}
   - component: {fileID: 6714156904273980557}
   m_Layer: 0
-  m_Name: Monster_0 1
+  m_Name: Monster_0
   m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -181,7 +181,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6252c4760f2609347b6e5d2e6443559a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damage: 3
+  damage: 1
   explosion: {fileID: 3381494316064698467, guid: 3566862cf298f0b4397a7e84d1fe4df5,
     type: 3}
 --- !u!50 &6714156904273980557

@@ -46,3 +46,42 @@ Version 1.3 - Minor Update:
 - モンスターの重力と重さを微調整
 - モンスターが地面にぶつかった時、地面に小さな「揺れる」効果を追加しました。
 
+----------------------------------------------
+
+Version 1.4 - Major Update:
+- Rewrote and optimized the codes.
+- Removed the "shaking ground" effect due to bug.
+- Implemented player being damaged animation
+- Replaced health point number with icons
+- Added instruction on the main menu
+
+バージョン1.4 - メジャーアップデート：
+- コードの書き換えと最適化。
+- バグによる「地面が揺れる」効果を削除しました。
+- プレイヤーがダメージを受けるアニメーションを実装
+- 健康ポイント数をアイコンに置き換え
+- メインメニューに指示を追加しました
+
+==============================================
+
+Future version plans:
+
+Version 1.4.1:
+- Add timers to the game
+- More details to player when taking damages from the monsters.
+- GUI overhaul
+
+Version 1.5:
+- Jump animation
+- crouch animation
+
+今後のバージョン予定。
+
+バージョン1.4.1.
+- ゲームにタイマーを追加
+- モンスターからダメージを受ける際に、プレイヤーに詳細な情報を提供するようになりました。
+- GUIのオーバーホール
+
+バージョン1.5。
+- ジャンプアニメーション
+- しゃがむ
