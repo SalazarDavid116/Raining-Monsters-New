@@ -53,6 +53,7 @@ Version 1.4 - Major Update:
 - Removed the "shaking ground" effect due to bug.
 - Implemented player being damaged animation
 - Replaced health point number with icons
+- Added the score to the game and endgame screen
 - Added instruction on the main menu
 
 バージョン1.4 - メジャーアップデート：
@@ -60,6 +61,7 @@ Version 1.4 - Major Update:
 - バグによる「地面が揺れる」効果を削除しました。
 - プレイヤーがダメージを受けるアニメーションを実装
 - 健康ポイント数をアイコンに置き換え
+- ゲームや終盤の画面にスコアを追加
 - メインメニューに指示を追加しました
 
 ==============================================
