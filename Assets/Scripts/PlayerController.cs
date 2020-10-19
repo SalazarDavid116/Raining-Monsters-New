@@ -18,7 +18,7 @@ public class PlayerController : MonoBehaviour
 
     public int health;
     public int score;
-
+    
     private Rigidbody2D rb;
     public Animator anim;
 
@@ -52,6 +52,12 @@ public class PlayerController : MonoBehaviour
             transform.eulerAngles = new Vector2(0, 180);
         }
         
+        if (UIController.instance.timeNumberLength <= 0) {
+            Destroy(gameObject);
+            finalScoreDisplay.text = "Score = " + score.ToString();
+            lostPanel.SetActive(true);
+        }
+
     } // function - Update()
 
     // FixedUpdate (30 or 60 FPS)
@@ -81,5 +87,6 @@ public class PlayerController : MonoBehaviour
             finalScoreDisplay.text = "Score = " + score.ToString();
             lostPanel.SetActive(true);
         }
+
     } // function - TakeDamage
 }

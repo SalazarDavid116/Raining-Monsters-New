@@ -64,25 +64,27 @@ Version 1.4 - Major Update:
 - ゲームや終盤の画面にスコアを追加
 - メインメニューに指示を追加しました
 
-==============================================
-
-Future version plans:
+----------------------------------------------
 
 Version 1.4.1:
 - Add timers to the game
 - More details to player when taking damages from the monsters.
 - GUI overhaul
 
+バージョン1.4.1.
+- ゲームにタイマーを追加
+- モンスターからダメージを受ける際に、プレイヤーに詳細な情報を提供するようになりました。
+- GUIのオーバーホール
+
+==============================================
+
+Future version plans:
+
 Version 1.5:
 - Jump animation
 - crouch animation
 
 今後のバージョン予定。
-
-バージョン1.4.1.
-- ゲームにタイマーを追加
-- モンスターからダメージを受ける際に、プレイヤーに詳細な情報を提供するようになりました。
-- GUIのオーバーホール
 
 バージョン1.5。
 - ジャンプアニメーション
