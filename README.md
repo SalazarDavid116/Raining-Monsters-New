@@ -64,26 +64,35 @@ Version 1.4 - Major Update:
 - ゲームや終盤の画面にスコアを追加
 - メインメニューに指示を追加しました
 
-==============================================
-
-Future version plans:
+----------------------------------------------
 
 Version 1.4.1:
 - Add timers to the game
 - More details to player when taking damages from the monsters.
 - GUI overhaul
 
-Version 1.5:
-- Jump animation
-- crouch animation
-
-今後のバージョン予定。
-
 バージョン1.4.1.
 - ゲームにタイマーを追加
 - モンスターからダメージを受ける際に、プレイヤーに詳細な情報を提供するようになりました。
 - GUIのオーバーホール
 
+----------------------------------------------
+
+Version 1.5:
+- Jump animation
+
+今後のバージョン予定。
+
 バージョン1.5。
-- ジャンプアニメーション
-- しゃがむ
+
+Note: 
+Crouch animation is removed due to bug.
+バグのため、しゃがみアニメーションが削除されました。
+
+----------------------------------------------
+
+Version 1.5.1:
+- Freezes the game when "game over" occurs.
+
+バージョン1.5.1。
+-「ゲームオーバー」が発生すると、ゲームをフリーズします。
