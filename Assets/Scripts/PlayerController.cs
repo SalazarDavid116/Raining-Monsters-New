@@ -45,7 +45,10 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     private void Update()
     {
+<<<<<<< HEAD
         Time.timeScale = 1;
+=======
+>>>>>>> a0e444448f7a1072cab980eea0795fa016866959
         // Checks if player is on the ground
         isGrounded = Physics2D.OverlapCircle(groundCheckPoint.position, .2f, layerGround);
         isBottomEnd = Physics2D.OverlapCircle(groundCheckPoint.position, .2f, bottomEnd);
@@ -70,13 +73,27 @@ public class PlayerController : MonoBehaviour
         } // End - if (isGrounded)
 
         if (UIController.instance.timeNumberLength <= 0) {
+<<<<<<< HEAD
             gameOver();
         } else if (isBottomEnd) {
             gameOver();
+=======
+            Destroy(gameObject);
+            finalScoreDisplay.text = "Score = " + score.ToString();
+            lostPanel.SetActive(true);
+        } else if (isBottomEnd) {
+            Destroy(gameObject);
+            finalScoreDisplay.text = "Score = " + score.ToString();
+            lostPanel.SetActive(true);
+>>>>>>> a0e444448f7a1072cab980eea0795fa016866959
         } // End - if (UIController.timeNumberLength)
 
         //Animations
         anim.SetBool("isGrounded", isGrounded);
+<<<<<<< HEAD
+=======
+
+>>>>>>> a0e444448f7a1072cab980eea0795fa016866959
     } // function - Update()
 
     // FixedUpdate (30 or 60 FPS)
@@ -103,6 +120,7 @@ public class PlayerController : MonoBehaviour
         if (health <= 0) {
             gameOver();
         }
+
     } // function - TakeDamage
 
     // Pauses the game and bring "game over" screen
