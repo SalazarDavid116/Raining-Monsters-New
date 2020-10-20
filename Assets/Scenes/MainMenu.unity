@@ -436,7 +436,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: v 1.4.1
+  m_Text: v 1.5
 --- !u!222 &692750233
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -717,12 +717,12 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: "Instruction:\r\nkeyboard\r\n\"A\" / \"D\" or \"\u21FD\" / \"\u21FE\" (Run
-    left and right)\r\n\r\nAvoid the enemy from hitting you.  survive as long as
-    you can.  \r\nSCORE: If monster hit the ground, you gain one point.  If monster
-    hit you, you lose one point.\r\n\r\n\r\n\u64CD\u4F5C\u8AAC\u660E:\r\n\u30AD\u30FC\u30DC\u30FC\u30C9\r\n\u300CA\u300D/\u300CD\u300D\u304B\u300C\u2190\u21FD\u300D/\u300C\u21FE\u2192\u300D
-    (\u5DE6\u53F3\u306B\u8D70\u308B)\r\n\r\n\u6575\u306E\u653B\u6483\u3092\u907F\u3051\u3066\u3001\u3067\u304D\u308B\u3060\u3051\u9577\u304F\u751F\u304D\u6B8B\u308C\u3002
-    \r\n\u30B9\u30B3\u30A2 \u30E2\u30F3\u30B9\u30BF\u30FC\u304C\u5730\u9762\u306B\u843D\u3061\u305F\u5834\u5408\u3001+1\u30DD\u30A4\u30F3\u30C8\u3002
-    \u30E2\u30F3\u30B9\u30BF\u30FC\u306B\u5F53\u305F\u3063\u305F\u5834\u5408\u3001-1\u30DD\u30A4\u30F3\u30C8\u3002"
+    left and right)\r\nSpacebar / \"W\" (Jump)\r\n\r\nAvoid the enemy from hitting
+    you.  survive as long as you can.  \r\nSCORE: If monster hit the ground, you
+    gain one point.\r\n\r\n\r\n\u64CD\u4F5C\u8AAC\u660E:\r\n\u30AD\u30FC\u30DC\u30FC\u30C9\r\n\u300CA\u300D/\u300CD\u300D\u304B\u300C\u2190\u21FD\u300D/\u300C\u21FE\u2192\u300D
+    (\u5DE6\u53F3\u306B\u8D70\u308B)\r\n\u30B9\u30DA\u30FC\u30B9\u30D0\u30FC/\u300CW\u300D
+    (\u30B8\u30E3\u30F3\u30D7)\r\n\u6575\u306E\u653B\u6483\u3092\u907F\u3051\u3066\u3001\u3067\u304D\u308B\u3060\u3051\u9577\u304F\u751F\u304D\u6B8B\u308C\u3002
+    \r\n\u30B9\u30B3\u30A2 \u30E2\u30F3\u30B9\u30BF\u30FC\u304C\u5730\u9762\u306B\u843D\u3061\u305F\u5834\u5408\u3001+1\u30DD\u30A4\u30F3\u30C8\u3002 "
 --- !u!222 &1044063645
 CanvasRenderer:
   m_ObjectHideFlags: 0
