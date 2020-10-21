@@ -11,6 +11,8 @@ public class CameraController : MonoBehaviour
 
     public float heightMIN, heightMAX;
 
+    public Transform backgroundMountain;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -25,6 +27,8 @@ public class CameraController : MonoBehaviour
         
         Vector2 moveAmount = new Vector2(transform.position.x - lastPosition.x, 
             transform.position.y - lastPosition.y);
+        
+        backgroundMountain.position += new Vector3(moveAmount.x, moveAmount.y, 0.0f) * 0.9f;
         
         lastPosition = transform.position;
     }

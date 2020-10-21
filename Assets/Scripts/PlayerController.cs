@@ -13,8 +13,7 @@ public class PlayerController : MonoBehaviour
     public Text scoreDisplay;
     public Text finalScoreDisplay;
     
-    public float speed;
-    private float hInput;
+    public float speedX;
     public float jumpForce;
 
     public int health;
@@ -50,22 +49,21 @@ public class PlayerController : MonoBehaviour
         isGrounded = Physics2D.OverlapCircle(groundCheckPoint.position, .2f, layerGround);
         isBottomEnd = Physics2D.OverlapCircle(groundCheckPoint.position, .2f, bottomEnd);
 
+        // Moving player
+        playerRB.velocity = new Vector2(speedX * Input.GetAxisRaw("Horizontal"), playerRB.velocity.y);
+        
+        // Checks input for flipping player
+        if (playerRB.velocity.x < 0) {
+            transform.eulerAngles = new Vector2(0, 180);
+        } else if (playerRB.velocity.x > 0) {
+            transform.eulerAngles = new Vector2(0, 0);
+        } // end if (playerRB.velocity.x)
+
+        // Checks if the player is on the ground
         if (isGrounded) {
             // player jumping
             if (Input.GetButtonDown("Jump") || Input.GetKeyDown(KeyCode.W)) {
                 playerRB.velocity = new Vector2(playerRB.velocity.x, jumpForce);
-            }
-
-            if (hInput != 0) {
-                anim.SetBool("isRunning", true);
-            } else if (hInput == 0) {
-                anim.SetBool("isRunning", false);
-            } 
-
-            if (hInput > 0) {
-                transform.eulerAngles = new Vector2(0, 0);
-            } else if (hInput < 0) {
-                transform.eulerAngles = new Vector2(0, 180);
             }
         } // End - if (isGrounded)
 
@@ -77,18 +75,8 @@ public class PlayerController : MonoBehaviour
 
         //Animations
         anim.SetBool("isGrounded", isGrounded);
+        anim.SetFloat("moveSpeed", Mathf.Abs(playerRB.velocity.x));
     } // function - Update()
-
-    // FixedUpdate (30 or 60 FPS)
-    void FixedUpdate()
-    {
-        // Stores player's input
-        hInput = Input.GetAxisRaw("Horizontal");
-
-        // Moving player
-        playerRB.velocity = new Vector2(hInput * speed, playerRB.velocity.y);
-
-    } // function - FixedUpdate()
     
     //--------------------------------------------------------------------------
     // Added functions
@@ -109,7 +97,7 @@ public class PlayerController : MonoBehaviour
     public void gameOver()
     {
         Time.timeScale = 0;
-        Destroy(gameObject);
+        //Destroy(gameObject);
         finalScoreDisplay.text = "Score = " + score.ToString();
         lostPanel.SetActive(true);
     }

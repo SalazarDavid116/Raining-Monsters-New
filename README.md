@@ -56,7 +56,7 @@ Version 1.4 - Major Update:
 - Added the score to the game and endgame screen
 - Added instruction on the main menu
 
-バージョン1.4 - メジャーアップデート：
+バージョン 1.4 - メジャーアップデート:
 - コードの書き換えと最適化。
 - バグによる「地面が揺れる」効果を削除しました。
 - プレイヤーがダメージを受けるアニメーションを実装
@@ -66,22 +66,22 @@ Version 1.4 - Major Update:
 
 ----------------------------------------------
 
-Version 1.4.1:
+Version 1.4.1 - Minor Update:
 - Add timers to the game
 - More details to player when taking damages from the monsters.
 - GUI overhaul
 
-バージョン1.4.1.
+バージョン 1.4.1 - マイナーアップデート:
 - ゲームにタイマーを追加
 - モンスターからダメージを受ける際に、プレイヤーに詳細な情報を提供するようになりました。
 - GUIのオーバーホール
 
 ----------------------------------------------
 
-Version 1.5:
+Version 1.5 - Minor Update:
 - Jump animation
 
-バージョン1.5。
+バージョン 1.5 - マイナーアップデート:
 - 今後のバージョン予定。
 
 Note: 
@@ -91,8 +91,24 @@ Crouch animation is removed due to bug.
 
 ----------------------------------------------
 
-Version 1.5.1:
+Version 1.5.1 - Minor Update:
 - Freezes the game during "Game over".
 
-バージョン1.5.1。
+バージョン 1.5.1 - マイナーアップデート:
 -「ゲームオーバー」中にゲームをフリーズします。
+
+----------------------------------------------
+
+Version 1.6 - Major Update:
+- Added extra platform
+- Optimized codes
+- Fixed animation problems
+- Improved player and monster's hitbox
+- Added physics to monsters
+
+バージョン 1.6 - メジャーアップデート:
+-追加のプラットフォームを追加
+-最適化されたコード
+-アニメーションの問題を修正しました
+-プレイヤーとモンスターのヒットボックスが改善されました
+-モンスターに物理学を追加しました

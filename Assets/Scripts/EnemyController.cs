@@ -47,6 +47,8 @@ public class EnemyController : MonoBehaviour
             PlayerController.instance.scoreDisplay.text = "Score = " + PlayerController.instance.score.ToString();
             Instantiate(explosion, transform.position, quaternion.identity);
             Destroy(gameObject, 0.5f);
+        } else if (hitObject.tag == "BottomEnd") {
+            Destroy(gameObject);
         }
     } // function - onTriggerEnter()
 }
