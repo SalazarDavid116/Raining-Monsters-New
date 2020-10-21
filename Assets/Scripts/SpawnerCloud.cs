@@ -17,12 +17,8 @@ public class SpawnerCloud : MonoBehaviour
     private float timeBtwSpawns;
     //public float startTimeBtwSpawns;
 
-    public GameObject player; 
+    public GameObject player;
 
-    // ---------------------------------------------------------
-    // Added functions
-    
-    
     // ---------------------------------------------------------
     // Main functions
     

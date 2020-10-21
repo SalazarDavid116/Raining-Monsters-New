@@ -15,7 +15,7 @@ public class Cloudy : MonoBehaviour
     //void OnTriggerEnter2D(Collider2D hitObject)
     private void OnTriggerEnter2D(Collider2D hitObject)
     {
-        if (hitObject.tag == "Wall") {
+        if (hitObject.tag == "CloudyWall") {
             Destroy(gameObject);
         }
     }
@@ -32,6 +32,7 @@ public class Cloudy : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        //transform.Translate(Vector2.left * (speed * Time.deltaTime));
         transform.Translate(Vector2.left * (speed * Time.deltaTime));
     } // function - Update()
 }

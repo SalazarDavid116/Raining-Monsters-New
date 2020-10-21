@@ -48,6 +48,8 @@ Version 1.3 - Minor Update:
 
 ----------------------------------------------
 
+10/19/2020
+
 Version 1.4 - Major Update:
 - Rewrote and optimized the codes.
 - Removed the "shaking ground" effect due to bug.
@@ -55,6 +57,8 @@ Version 1.4 - Major Update:
 - Replaced health point number with icons
 - Added the score to the game and endgame screen
 - Added instruction on the main menu
+
+２０２０年１０月１９日
 
 バージョン 1.4 - メジャーアップデート:
 - コードの書き換えと最適化。
@@ -66,10 +70,14 @@ Version 1.4 - Major Update:
 
 ----------------------------------------------
 
+10/19/2020
+
 Version 1.4.1 - Minor Update:
 - Add timers to the game
 - More details to player when taking damages from the monsters.
 - GUI overhaul
+
+２０２０年１０月１９日
 
 バージョン 1.4.1 - マイナーアップデート:
 - ゲームにタイマーを追加
@@ -78,8 +86,12 @@ Version 1.4.1 - Minor Update:
 
 ----------------------------------------------
 
+10/20/2020
+
 Version 1.5 - Minor Update:
 - Jump animation
+
+２０２０年１０月２０日
 
 バージョン 1.5 - マイナーアップデート:
 - 今後のバージョン予定。
@@ -91,13 +103,19 @@ Crouch animation is removed due to bug.
 
 ----------------------------------------------
 
+10/20/2020
+
 Version 1.5.1 - Minor Update:
 - Freezes the game during "Game over".
+
+２０２０年１０月２０日
 
 バージョン 1.5.1 - マイナーアップデート:
 -「ゲームオーバー」中にゲームをフリーズします。
 
 ----------------------------------------------
+
+10/21/2020
 
 Version 1.6 - Major Update:
 - Added extra platform
@@ -106,9 +124,24 @@ Version 1.6 - Major Update:
 - Improved player and monster's hitbox
 - Added physics to monsters
 
+２０２０年１０月２１日
+
 バージョン 1.6 - メジャーアップデート:
 -追加のプラットフォームを追加
 -最適化されたコード
 -アニメーションの問題を修正しました
 -プレイヤーとモンスターのヒットボックスが改善されました
 -モンスターに物理学を追加しました
+
+----------------------------------------------
+10/21/2020
+
+Version 1.6.1 - Minor Update:
+- Fixed the problems with cloudy animation
+- Added cloudy when the game starts.
+
+２０２０年１０月２１日
+
+バージョン 1.6.1 - マイナーアップデート:
+-曇ったアニメーションの問題を修正しました
+-ゲーム開始時に曇りを追加しました。
