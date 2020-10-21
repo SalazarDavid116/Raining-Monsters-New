@@ -9,4 +9,9 @@ public class GameManager : MonoBehaviour
     {
         SceneManager.LoadScene("Game");
     } // function - PlayGame()
+    
+    // Exit the game
+    public void doExitGame() {
+        Application.Quit();
+    }
 }

@@ -145,3 +145,16 @@ Version 1.6.1 - Minor Update:
 バージョン 1.6.1 - マイナーアップデート:
 -曇ったアニメーションの問題を修正しました
 -ゲーム開始時に曇りを追加しました。
+
+----------------------------------------------
+10/21/2020
+
+Version 1.6.2 - Minor Update:
+- Fixed the problems with cloudy de-spawn
+- Added menu (Press 'esc' to pause the game and display menu.
+
+２０２０年１０月２１日
+
+バージョン 1.6.2 - マイナーアップデート:
+-曇りのデスポーンに関する問題を修正しました
+-メニューを追加しました（ゲームを一時停止してメニューを表示するには、「esc」を押します。
