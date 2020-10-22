@@ -42,7 +42,6 @@ public class PlayerController : MonoBehaviour
         scoreDisplay.text = "Score = " + score.ToString();
         finalScoreDisplay.text = scoreDisplay.text;
         score = 0;
-        gamePause = false;
     }
 
     // Update is called once per frame
