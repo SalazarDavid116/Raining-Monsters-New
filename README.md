@@ -187,3 +187,17 @@ Version 1.6.2b - Hotfix:
 バージョン1.6.2b - Hotfix:
 
 -メインメニューアニメーションの問題を修正しました
+
+----------------------------------------------
+
+10/22/2020
+
+Version 1.6.3 - Minor Update:
+
+- Improves button colors and size when using the mouse cursor.
+
+2020年10月22日
+
+バージョン1.6.3 - マイナーアップデート:
+
+- マウスカーソル使用時のボタンの色とサイズを改善します。
